@@ -2,10 +2,24 @@
   padding: 0 29px;
 }
 
-
-.header__hr {
+.nav {
   display: none;
 }
+
+.header {
+  position: static;
+}
+
+.nav-375px {
+  position: fixed;
+  top: 63px;
+  left: 264px;
+
+  display: block;
+}
+
+
+
 
 .header__container-name {
   margin-bottom: 37px;
@@ -19,6 +33,12 @@
   margin-bottom: 83px;
 }
 
+.home__container-name {
+  margin-bottom: 36px;
+  
+  flex-direction: column;
+  gap: 23px 0;
+}
 
 .tittle-2-about {
   padding-top: 81px;

@@ -44,3 +44,17 @@
       transition-duration: 0.3s;
     }
 
+    .nav-375px {
+      display: none;
+    }
+
+    .header__menu {
+      width: 33px;
+      height: 19px;
+
+      display: block;
+
+      background-image: url("/img/header/min_menu.svg");
+      background-repeat: no-repeat;
+    }
+
