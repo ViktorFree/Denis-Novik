@@ -1,0 +1,46 @@
+.header {
+  margin: 0 auto;
+
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+  .nav {
+    margin: 0 auto;
+    margin-bottom: 33px;
+    padding-top: 33px;
+    padding-bottom: 32px;
+    max-width: 940px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #828282;
+    outline-offset: 32px;
+  }
+
+    .nav__link {
+      font-family: Gilroy-Bold;
+      font-size: 18px;
+
+      line-height: 22px;
+      text-decoration: none;
+      
+      transition-duration: 0.3s;
+
+      color: #828282;
+    }
+
+    .nav__link:hover {
+      font-family: Gilroy-Bold;
+      font-size: 18px;
+
+      line-height: 22px;
+
+      color: #070707;
+      transition-duration: 0.3s;
+    }
+

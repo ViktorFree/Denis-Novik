@@ -1,0 +1,35 @@
+html { 
+  scroll-behavior: smooth; /*плавная прокрутка*/ 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 940px;
+}
+
+.container_center {
+  margin: 0 auto;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+/* Подключение шрифтов */
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.woff') format('woff'), 
+        url('../fonts/gilroy-bold.woff2') format('woff2');   
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.woff') format('woff'),
+		url('../fonts/gilroy-medium.woff2') format('woff2');
+}
+

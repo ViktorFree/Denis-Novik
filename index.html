@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/rezet.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" media="all and (max-width:375px)" href="css/mobile375px.css">
+
+  <title>Denis Novik</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav"> 
+      <a href="#home" class="nav__link">Home</a>
+      <a href="#about-me" class="nav__link">About me</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#portfolio" class="nav__link">Portfolio</a>
+      <a href="#contacts" class="nav__link">Contacts</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home container container_center">
+      <div class="home__container-name">
+        <h1 id="home" class="tittle-1">Denis Novik</h1>
+
+        <div class="home__container-age">
+          <span class="main__age-designer">UX | UI designer</span>
+          
+          <span class="main__age-designer">24 years old, Minsk</span>
+        </div>
+      </div>
+
+      <picture>
+        <source srcset="img/mobile/header/header_photo.jpg" media="(max-width:375px)">
+        <img src="img/header/header_photo.jpg" alt="Фото Дениса" class="home__img">
+      </picture>
+    </section>
+
+    <section class="about-me">
+      <h2 id="about-me" class="tittle-2 tittle-2-about">About me</h2>
+
+      <div class="about-me__container-list">
+        <p class="about-me__item">
+          Hi, I'm Denis – UX/UI designer from Minsk. <br>
+          I'm interested in design and everything connected with it.
+        </p>
+
+        <p class="about-me__item">     
+          I'm studying at courses "Web and mobile design <br>
+          interfaces" in IT-Academy.
+        </p>
+
+        <p class="about-me__item">
+          Ready to implement excellent projects <br>
+          with wonderful people.     
+        </p>
+      </div>
+    </section>
+
+    <section class="skills container container_center">
+      <h2 id="skills" class="tittle-2 tittle-2-skills">Skills</h2>
+
+      <p class="skills__subtittle">I work in such programs as</p>
+
+      <ul class="skills__list">
+        <li class="skills__item">
+          <span class="skills__img-photoshop"></span>
+
+          <p class="skills_desc">Adobe Photoshop</p>
+
+          <div class="skills__container-star">
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star-empty"></span>
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <span class="skills__img skills__img-illustrator"></span>
+          <p class="skills_desc">Adobe Illustrator</p>
+
+          <div class="skills__container-star">
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star-empty"></span>
+            <span class="skills__star-empty"></span>
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <span class="skills__img skills__img-after"></span>
+
+          <p class="skills_desc">Adobe After Effects</p>
+
+          <div class="skills__container-star">
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star-empty"></span>
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <span class="skills__img skills__img-figma"></span>
+
+          <p class="skills_desc">Figma</p>
+
+          <div class="skills__container-star">
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star"></span>
+            <span class="skills__star-empty"></span>
+          </div>
+        </li>
+      </ul>
+    </section>
+  
+    <section class="portfolio">
+      <h2 id="portfolio" class="tittle-2 tittle-2-portfolio">Portfolio</h2>
+
+      <ul class="portfolio__list">
+        <li class="portfolio__item">
+          <picture>
+            <source srcset="img/mobile/main/main_reebok1.png" media="(max-width:375px)">
+            <img class="portfolio__img" src="img/main/main_reebok1.png" alt="Картинка из портфолио">
+          </picture>
+
+          <a class="portfolio__desc" href="https://www.reebok.ru/" target="_blank">
+            Online fashion store - Homepage
+          </a>
+        </li>
+
+        <li class="portfolio__item">
+          <picture>
+            <source srcset="img/mobile/main/main_reebok2.png" media="(max-width:375px)">
+            <img class="portfolio__img" src="img/main/main_reebok2.png" alt="Картинка из портфолио" >
+          </picture>
+
+          <a class="portfolio__desc" href="https://www.reebok.ru/" target="_blank">
+            Reebok Store - Concept
+          </a>
+        </li>
+
+        <li class="portfolio__item">
+          <picture>
+            <source srcset="img/mobile/main/main_braun.png" media="(max-width:375px)">
+            <img class="portfolio__img" src="img/main/main_braun.png" alt="Картинка из портфолио">
+          </picture>
+
+          <a class="portfolio__desc" href="https://www.reebok.ru/" target="_blank">
+            Braun Landing Page - Concept
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer container container_center">
+    <section class="contacts">
+      <h2 id="contacts" class="tittle-2 tittle-2-contacts">Contacts</h2>
+
+      <div class="contacts__subtittle">
+        Want to know more or just chat? 
+        You are welcome!
+      </div>
+
+      <div class="contacts__btn-container">
+        <button class="contacts__btn" type="button">Send message</button>
+      </div>
+
+      <div class="contacts__socials">
+        <a class="contacts__socials-in" href="#" target="_blank"></a>
+        <a class="contacts__socials-instagram" href="#"  target="_blank"></a>
+        <a class="contacts__socials-be" href="#" target="_blank"></a>
+        <a class="contacts__socials-dribble" href="#" target="_blank"></a>
+      </div>
+
+      <p class="contacts__desc">
+          Like me on <br>
+          LinkedIn, Instagram, Behance, Dribble
+      </p>
+    </section>
+  </footer>
+</body>
+</html>

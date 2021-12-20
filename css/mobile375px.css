@@ -1,0 +1,66 @@
+.container {
+  padding: 0 29px;
+}
+
+
+.header__hr {
+  display: none;
+}
+
+.header__container-name {
+  margin-bottom: 37px;
+  gap: 23px 0;
+
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.header__img {
+  margin-bottom: 83px;
+}
+
+
+.tittle-2-about {
+  padding-top: 81px;
+}
+
+.about-me__container-list {
+  padding-bottom: 76px;
+}
+
+
+.tittle-2-skills {
+  margin-bottom: 50px;
+  padding-top: 83px;
+}
+
+.skills__subtittle {
+  margin-bottom: 74px;
+}
+
+.skills__list {
+  gap: 85px 0;
+  flex-direction: column;
+
+}
+
+
+.tittle-2-portfolio {
+  padding-top: 81px;
+}
+
+.portfolio__item:last-child {
+  padding-bottom: 80px;
+}
+
+.tittle-2-contacts {
+  padding-top: 82px;
+}
+
+.contacts__btn {
+  margin-bottom: 48px;
+}
+
+.contacts__socials {
+  gap: 0 47px;
+}
